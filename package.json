@@ -4,7 +4,7 @@
   "description": "--",
   "main": "webapp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jshint && mocha -R tap"
   },
   "dependencies": {
     "run-qunit": "latest",
@@ -13,5 +13,10 @@
   "repository": "",
   "author": "Peter Braden <peterbraden@peterbraden.co.uk>",
   "license": "BSD",
-  "readmeFilename": "readme.md"
+  "readmeFilename": "readme.md",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "jshint": "~2.3.0",
+    "mocha": "~1.14.0"
+  }
 }
