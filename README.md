@@ -1,6 +1,8 @@
 # Strider-QUnit
 ## A test runner for [QUnit](http://qunitjs.com/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Strider-CD/strider-qunit.svg)](https://greenkeeper.io/)
+
 If your project uses QUnit to test client side code, this [strider](http://stridercd.com)
 extension will allow you to run those tests in a browser. This plugin is best used with
 some sort of cloud-browser testing service such as
